@@ -1,5 +1,4 @@
-Kilo
-===
+# Kilo
 
 Kilo is a small text editor in less than 1K lines of code (counted with cloc).
 
@@ -24,3 +23,11 @@ style CLI.
 
 Kilo was written by Salvatore Sanfilippo aka antirez and is released
 under the BSD 2 clause license.
+
+## QNX specific instructions
+
+You need to build this version of kilo.c using the qcc compiler. Use the makefile provided with the project (or use a binary in the releases tab.)
+
+Place this compiled binary of kilo in your usr/bin folder for quick access (you can do this either through ftp/scp or use VSCode QNX extension to mount the target file system).
+
+Open for PRs and Issues/Comments!
